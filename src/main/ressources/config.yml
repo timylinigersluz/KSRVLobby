@@ -1,0 +1,20 @@
+# KSRVLobby Konfiguration
+
+# Lobby-Server, auf den Spieler teleportiert werden
+lobby-server: "KSR-Lobby"
+
+# Befehle, die als Lobby-Kommandos gelten
+lobby-commands:
+  - "hub"
+  - "lobby"
+
+debug: true
+
+# Blockierte Welten pro Server
+blocked-worlds:
+  paper1:
+    - "*"          # blockiert alle Welten auf diesem Server
+  KSR-Bedwars:
+    - "1vs1"       # blockiert nur 1vs1
+    - "1vs*"       # blockiert ALLE Welten, die mit 1vs beginnen
+    - "training"   # blockiert nur Welt "training"

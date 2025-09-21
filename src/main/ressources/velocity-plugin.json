@@ -1,0 +1,16 @@
+{
+  "id": "ksrlobby",
+  "name": "KSRLobby",
+  "version": "1.0",
+  "description": "Custom /hub & /lobby mit Welt-Blockierung",
+  "authors": ["ksrminecraft tecs"],
+  "dependencies": [],
+
+  "main": "ch.ksrminecraft.kSRVLobby.KSRVLobby",
+
+  "permissions": {
+    "ksrlobby.reloadconfig": {
+      "description": "Erlaubt das Neuladen der Lobby-Config"
+    }
+  }
+}
